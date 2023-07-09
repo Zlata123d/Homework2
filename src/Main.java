@@ -9,6 +9,8 @@ public class Main {
         System.out.println(paper);
         var friend = 19;
         System.out.println(friend);
+        double  frog  = 3.5;
+        System.out.println(frog);
         dog =  dog +4;
         System.out.println(dog);
         cat = cat +4;
@@ -28,5 +30,12 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+
+        frog =(int) frog *10;
+        System.out.println(frog);
+        frog =(int) frog / 3.5;
+        System.out.println(frog);
+        frog = (int) 8.571428571428571 + 4;
+        System.out.println(frog);
     }
 }
