@@ -17,6 +17,16 @@ public class Main {
         System.out.println(boxer2);
         var boxer3=boxer1+boxer2;
         System.out.println(boxer3);
+        var opening_hours=640;
+        System.out.println(opening_hours);
+        var working_hours=8;
+        System.out.println(working_hours);
+        var employees=opening_hours/working_hours;
+        System.out.println(employees);
+        var employees2=80;
+        System.out.println(employees2);
+        var shared_time=opening_hours/employees2;
+        System.out.println(shared_time);
         dog =  dog +4;
         System.out.println(dog);
         cat = cat +4;
@@ -49,5 +59,11 @@ public class Main {
         System.out.println(boxer3);
         boxer3=boxer2 % boxer1;
         System.out.println(boxer3);
+        employees=opening_hours/working_hours;
+        System.out.println(employees);
+        employees2=employees2+94;
+        System.out.println(employees2);
+        shared_time=opening_hours/employees2;
+        System.out.println(shared_time);
     }
 }
