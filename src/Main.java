@@ -45,7 +45,9 @@ public class Main {
         System.out.println(frog);
         boxer3=boxer1+boxer2;
         System.out.println(boxer3);
-
-
+        boxer3=boxer2-boxer1;
+        System.out.println(boxer3);
+        boxer3=boxer2 % boxer1;
+        System.out.println(boxer3);
     }
 }
