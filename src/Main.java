@@ -11,6 +11,12 @@ public class Main {
         System.out.println(friend);
         double  frog  = 3.5;
         System.out.println(frog);
+        var boxer1=78.2;
+        System.out.println(boxer1);
+        var boxer2=82.7;
+        System.out.println(boxer2);
+        var boxer3=boxer1+boxer2;
+        System.out.println(boxer3);
         dog =  dog +4;
         System.out.println(dog);
         cat = cat +4;
@@ -37,5 +43,9 @@ public class Main {
         System.out.println(frog);
         frog = (int) 8.571428571428571 + 4;
         System.out.println(frog);
+        boxer3=boxer1+boxer2;
+        System.out.println(boxer3);
+
+
     }
 }
